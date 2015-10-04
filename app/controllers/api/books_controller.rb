@@ -1,5 +1,4 @@
-class BooksController < ApplicationController
-
+class Api::BooksController < BaseController
   protect_from_forgery :except => [:create]
 
   #POST /books
